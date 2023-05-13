@@ -53,8 +53,7 @@ if(isset ($_POST["enviar"]) and ($_POST["enviar"]== "si" )){
             break;          
           }
         }
-      ?>
-       
+      ?>       
         <div class="input-group mb-3">
           <input type="email" name="correo" id="correo" class="form-control" placeholder="Email">
           <div class="input-group-append">
@@ -86,16 +85,10 @@ if(isset ($_POST["enviar"]) and ($_POST["enviar"]== "si" )){
             <div class="row">
               <div class="col-12">
                 <input type="hidden"name ="enviar" value="si">          
-                <a href="/PARCIAL3333/views/registro.php" id="pass"class="form-control">Registarse</a>
-              
-            </div>
-        
+                <a href="/PARCIAL3333/views/registro.php" id="pass"class="form-control">Registarse</a>              
+            </div>        
         </div>
-
-
-        </div>
-
-        
+        </div>       
       </form>
     </div>
     <!-- /.card-body -->
